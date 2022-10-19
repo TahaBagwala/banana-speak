@@ -1,0 +1,25 @@
+textarea {
+    width: 90%;
+    height: 15vh;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    resize: none;
+    border-width: 0.15rem;
+    font-size: 18px;
+    background-color: #f8f8f8;
+}
+
+.centerElement {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 18px;
+}
+
+.btn :hover {
+    background-color: bisque;
+    cursor: pointer;
+}
