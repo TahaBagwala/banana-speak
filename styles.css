@@ -1,3 +1,13 @@
+body {
+    background-color: #86efac;
+}
+
+h1 {
+    padding: 0.5rem 7rem 0rem;
+    color:#0ea5e9;
+    font: bolder;
+}
+
 textarea {
     width: 90%;
     height: 15vh;
@@ -6,7 +16,7 @@ textarea {
     border-radius: 0.5rem;
     resize: none;
     border-width: 0.15rem;
-    font-size: 18px;
+    font-size: 1.15rem;
     background-color: #f8f8f8;
 }
 
