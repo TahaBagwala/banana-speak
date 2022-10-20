@@ -1,15 +1,25 @@
-body {
-    background-color: #86efac;
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+body{
+    margin: 0;
 }
 
-h1 {
-    padding: 0.5rem 7rem 0rem;
-    color:#0ea5e9;
-    font: bolder;
+.font {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+nav {
+    background-color: #86efac;
+    text-align: center;
+    height: 2rem;
+    padding: 1rem;
+    font-size: 1.75rem ;
+    color: #0ea5e9;
+    font-weight: bolder;
 }
 
 textarea {
-    width: 90%;
+    width: 50%;
     height: 15vh;
     margin: 1rem;
     padding: 1rem;
@@ -27,9 +37,11 @@ textarea {
 
 .button {
     font-size: 18px;
+    color: #0ea5e9;
 }
 
 .btn :hover {
-    background-color: bisque;
+    background-color: #86efac;
     cursor: pointer;
+    font-size: 125%;
 }
