@@ -2,6 +2,7 @@
 
 body{
     margin: 0;
+    padding: 0;
 }
 
 .font {
@@ -11,9 +12,8 @@ body{
 nav {
     background-color: #86efac;
     text-align: center;
-    height: 2rem;
     padding: 1rem;
-    font-size: 1.75rem ;
+    font-size: 2rem ;
     color: #0ea5e9;
     font-weight: bolder;
 }
@@ -57,4 +57,27 @@ textarea {
     border-width: 0.15rem;
     font-size: 1.15rem;
     background-color: #f8f8f8;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:auto;
+    background:#86efac;
+    color: #0ea5e9;
+    text-align: center;
+}
+
+footer div{
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+footer p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
 }
